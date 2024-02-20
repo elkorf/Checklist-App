@@ -2,11 +2,11 @@
 <h2 align="center">Project using HTML, CSS and React JS</h2>
 <div align="center">
   <h3>
-    <a href="https://elkorf-javascript-projects.netlify.app/">
+    <a href="https://https://elk-checklist-app.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/elkorf/Checklis-App/">
+    <a href="https://github.com/elkorf/Checklist-App/">
       Solution
     </a>
   </h3>
@@ -14,7 +14,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/elkorf/Checklist-App/blob/master/Output-SS.PNG)
+![screenshot](https://github.com/elkorf/Checklist-App/blob/main/Output-SS.PNG)
 
 ## Getting Started with Create React App
 
