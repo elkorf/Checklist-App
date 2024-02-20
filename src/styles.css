@@ -19,6 +19,7 @@ header {
   background-color: #d5e1f5;
   text-align: center;
   line-height: 60px;
+  color:#5c6e8f;
 }
 .checklist-container {
   margin-top: 80px;
@@ -77,7 +78,7 @@ ul > li {
   font-size: 17px;
   transition: all 0.4s ease;
   font-weight: 400;
-  color:#535f75;
+  color:#32405a;
 }
 li:hover {
   background-color: #e2eaff;
