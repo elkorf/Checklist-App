@@ -2,7 +2,7 @@
 <h2 align="center">Project using HTML, CSS and React JS</h2>
 <div align="center">
   <h3>
-    <a href="https://https://elk-checklist-app.netlify.app/">
+    <a href="https://elk-checklist-app.netlify.app/">
       Demo
     </a>
     <span> | </span>
