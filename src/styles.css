@@ -77,6 +77,7 @@ ul > li {
   font-size: 17px;
   transition: all 0.4s ease;
   font-weight: 400;
+  color:#535f75;
 }
 li:hover {
   background-color: #e2eaff;

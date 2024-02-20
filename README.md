@@ -1,4 +1,20 @@
-# Checklist app using React
+<h1 align="center">Checklist app using React</h1>
+<h2 align="center">Project using HTML, CSS and React JS</h2>
+<div align="center">
+  <h3>
+    <a href="https://elkorf-javascript-projects.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/elkorf/Checklis-App/">
+      Solution
+    </a>
+  </h3>
+</div>
+
+## Overview
+
+![screenshot](https://github.com/elkorf/Checklist-App/blob/master/Output-SS.PNG)
 
 ## Getting Started with Create React App
 
@@ -66,3 +82,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
