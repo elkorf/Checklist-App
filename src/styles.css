@@ -6,6 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 .App {
+  width: 100%;
   display: flex;
   height: 100vh;
   background-color: #fafbff;
@@ -19,22 +20,20 @@ header {
   background-color: #d5e1f5;
   text-align: center;
   line-height: 60px;
-  color:#3e485b;
 }
 .checklist-container {
   margin-top: 80px;
   padding: 20px 0px;
   display: flex;
   width: 40%;
-  height: 50%;
-  min-height: 500px;
+  /* height: 300px; */
+  min-height: 400px;
   min-width: 700px;
   background-color: transparent;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   border-radius: 5px;
-  /* background-color: red; */
 }
 
 .left,
@@ -78,7 +77,7 @@ ul > li {
   font-size: 17px;
   transition: all 0.4s ease;
   font-weight: 400;
-  color:#32405a;
+  color: #535f75;
 }
 li:hover {
   background-color: #e2eaff;
@@ -107,4 +106,28 @@ button:hover {
   box-shadow:
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+label {
+  cursor: pointer;
+}
+@media (max-width: 750px) {
+  .checklist-container {
+    margin-top: 10px;
+    flex-direction: column;
+    min-height: 700px;
+    min-width: 100%;
+  }
+  .left,
+  .right {
+    min-width: 260px;
+  }
+  .middle {
+    margin: 20px 0px;
+    width: 260px;
+    flex-direction: row;
+  }
+  button span {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
 }

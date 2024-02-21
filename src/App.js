@@ -46,7 +46,7 @@ export default function App() {
 
   //Event Delegation for Right Shift & Left Shift
   const handleClick = (event) => {
-    switch (event.target.id) {
+    switch (event.target.className) {
       case "right-shift":
         handleRightShift();
         break;
@@ -80,10 +80,10 @@ export default function App() {
         {/* Shifting buttons*/}
         <div className="middle" onClick={handleClick}>
           <button className="right-shift" id="right-shift">
-            &gt;&gt;&gt;
+            <span className="right-shift">&gt;&gt;&gt;</span>
           </button>
           <button className="left-shift" id="left-shift">
-            &lt;&lt;&lt;
+            <span className="left-shift">&lt;&lt;&lt;</span>
           </button>
         </div>
         <div className="right">
